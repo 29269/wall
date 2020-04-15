@@ -1,0 +1,364 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.top {
+    margin: 70px auto 0px;
+    border: 1px solid #363636;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    height: 420px;
+}
+
+.person {
+    border: 1px solid #363636;
+    border-radius: 50px;
+    width: 40px;
+    padding: 14px;
+    margin: -52px auto 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.fa-user {
+    font-size: 35px;
+}
+
+.footer {
+    width: 98.5%;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.top .textt {
+    float: left;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.textt h2 {
+    margin-left: 0;
+}
+
+.img {
+    width: 350px;
+    height: 210px;
+}
+
+nav {
+    background-color: #363636;
+    padding: 30px;
+}
+
+nav img {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    margin-top: -22px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    margin-top: -22px;
+    border: 1px solid white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+li:hover {
+    transform: scale(1.02);
+    transition: 1s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    font-size: 25px;
+}
+
+.login1 {
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+.registreer {
+    font-size: 25px;
+}
+
+.register1 {
+    margin-top: -30px;
+    margin-right: 15px;
+}
+
+.img {
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3.1em;
+    padding: 0 10px;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+
+/* registreer pagina */
+
+.whole {
+    width: 98.7vw;
+    height: 150%;
+    background-color: #000;
+    position: absolute;
+    opacity: .5;
+}
+
+.blok {
+    width: 75%;
+    height: 80vh;
+    margin-left: 12.5%;
+    background-color: white;
+    position: absolute;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+#registreren {
+    position: absolute;
+}
+
+#registreren h1 {
+    margin-left: 60%;
+    letter-spacing: 2.3px;
+    font-size: 40px;
+}
+
+.personn {
+    margin-top: -15px;
+    margin-left: 240px;
+    width: 420px;
+    height: 400px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+input {
+    border: none;
+    background-color: none;
+    border-bottom: 1.2px solid #333;
+    width: 100%;
+    margin-top: -20px;
+}
+
+form {
+    margin-left: 150px;
+}
+
+.email {
+    margin-top: 63px;
+}
+
+.ww {
+    margin-top: 63px;
+}
+
+.herww {
+    margin-top: 63px;
+}
+
+.button {
+    background-color: #363636;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 45px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.button:hover {
+    background-color: rgb(71, 69, 69);
+    transition: .7s ease;
+}
+
+.button2 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.button2:hover {
+    background-color: rgb(236, 35, 35);
+    transition: .7s ease;
+}
+
+.fixed {
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+
+/* end registreer pagina */
+
+
+/* login css code */
+
+#registreren {
+    margin-left: 25%;
+}
+
+#registreren h1 {
+    margin-left: 285px;
+}
+
+.button2 {
+    margin-right: 100px;
+}
+
+.button {
+    margin-left: 180px;
+}
+
+#boxfooter {
+    margin-top: 650px;
+}
+
+.titel {
+    padding: 2em;
+}
+
+
+/* end login css code  */
+
+@media screen and (max-width: 400px) {
+    .personn {
+        margin-top: -15px;
+        margin-left: 240px;
+        width: 420px;
+        height: 400px;
+        display: none;
+    }
+    .blok {
+        width: 75%;
+        height: 69vh;
+        margin-left: 12.5%;
+        background-color: white;
+        position: absolute;
+    }
+    nav img {
+        z-index: -10;
+    }
+    .whole {
+        width: 100vw;
+        height: 150%;
+        background-color: #000;
+        position: absolute;
+        opacity: .5;
+    }
+    #registreren h1 {
+        margin-left: -5%;
+        letter-spacing: 2.3px;
+        font-size: 30px;
+    }
+    .img {
+        width: 235px;
+        height: 205px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .gebruikersnaam {
+        margin-left: -190px;
+        margin-top: 40px;
+    }
+    .email {
+        margin-left: -190px;
+        margin-top: 28px;
+    }
+    .ww {
+        margin-left: -190px;
+        margin-top: 28px;
+    }
+    input {
+        width: 100%;
+    }
+    label {
+        font-size: 16px;
+    }
+    .button {
+        background-color: #363636;
+        border: none;
+        color: white;
+        padding: 10px 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        width: 140px;
+    }
+    .button2 {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 6px 15px;
+        margin-left: -100px;
+        margin-right: 20px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+    }
+    .buttons {
+        display: inline-flex;
+        margin-top: 80px;
+        margin-left: -80px;
+    }
+}
+
+#boxfooter {
+    margin-top: 500px;
+}
+
+.titel {
+    padding: 2em;
+}

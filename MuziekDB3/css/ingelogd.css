@@ -1,0 +1,329 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.top {
+    margin: 120px auto 0px;
+    border: 1px solid #363636;
+    padding: 20px;
+    width: 350px;
+    height: 420px;
+}
+
+.person {
+    border: 1px solid #363636;
+    border-radius: 50px;
+    width: 40px;
+    padding: 14px;
+    text-align: center;
+    margin: -52px auto 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.fa-user {
+    font-size: 35px;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.footer {
+    width: 98.5%;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.textt h2 {
+    width: 200px;
+}
+
+.textt h2 {
+    margin-left: 0;
+}
+
+.img {
+    width: 350px;
+    height: 210px;
+}
+
+nav {
+    background-color: #363636;
+    padding: 26px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 97%;
+}
+
+nav img {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    margin-top: -15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    border: 1px solid white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+li:hover {
+    transform: scale(1.02);
+    transition: 1s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    font-size: 25px;
+}
+
+.login1 {
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+.registreer {
+    font-size: 25px;
+}
+
+.register1 {
+    margin-top: -40px;
+    margin-right: 15px;
+}
+
+.img {
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3.1em;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+
+/* begin ingelogd css */
+
+.fa-trash {
+    color: black;
+    font-size: 20px;
+}
+
+.fa-paint-brush {
+    color: black;
+    font-size: 20px;
+    float: right;
+}
+
+.ingelogd {
+    margin-top: 75px;
+}
+
+#loggedInUser {
+    color: #D82C2E;
+}
+
+.user {
+    margin-left: 100px;
+    margin-top: -2px;
+    color: white;
+}
+
+.postToe {
+    color: white;
+    background-color: #363636;
+    padding: 10px 20px;
+    width: 225px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 41.5%;
+}
+
+.postToe a h2 {
+    letter-spacing: 2px;
+    margin: 0;
+    margin-left: 45px;
+}
+
+.postToe a {
+    margin: 0 auto;
+}
+
+.fa-plus {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* end ingelogd css */
+
+@media screen and (max-width: 400px) {
+    .top {
+        margin: 20px auto 0px;
+        border: 1px solid #363636;
+        padding: 20px;
+        width: 120px;
+        height: 220px;
+    }
+    .img {
+        width: 125px;
+        height: 105px;
+    }
+    .textt h2 {
+        font-size: 16px;
+    }
+    .textt p {
+        font-size: 14px;
+    }
+    nav {
+        background-color: #363636;
+        padding: 12px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 97%;
+    }
+    .person {
+        border: 1px solid #363636;
+        border-radius: 50px;
+        width: 27px;
+        padding: 7px;
+        text-align: center;
+        margin: -40px auto 0;
+        z-index: 10;
+        background-color: white;
+    }
+    .fa-user {
+        font-size: 25px;
+    }
+    nav img {
+        width: 50px;
+        height: auto;
+        position: absolute;
+        margin-top: -7px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        padding: 0 10px;
+        margin-top: 120px;
+    }
+    .register1 {
+        margin-top: -35px;
+        margin-right: 55px;
+        padding: 8px 9px;
+        margin-left: -60px;
+    }
+    .registreer {
+        font-size: 14px;
+    }
+    .login {
+        font-size: 16px;
+    }
+    .login1 {
+        margin-top: -20px;
+        margin-left: 15px;
+        margin-right: 35px;
+        padding: 8px 9px;
+    }
+    .postToe {
+        color: white;
+        background-color: #363636;
+        padding: 5px 10px;
+        width: 150px;
+        position: fixed;
+        bottom: 0;
+        margin-left: 25%;
+    }
+    .ingelogd {
+        margin-top: 30px;
+    }
+    .fa-trash {
+        color: black;
+        font-size: 15px;
+    }
+    .fa-paint-brush {
+        color: black;
+        font-size: 15px;
+        float: right;
+    }
+    .user {
+        margin-left: 55px;
+        margin-top: -2px;
+        color: white;
+        font-size: 16px;
+    }
+    .postToe a h2 {
+        letter-spacing: 2px;
+        margin: 0;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+}
+
+
+/* lightbox */
+
+
+/* het modaal venster opmaken */
+
+#modaall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 0, 0, 0.7);
+    /* padding: 2em 4em; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.modaallInhoud {
+    background-color: white;
+    padding: 1em 2em;
+    max-width: 50vw;
+    max-height: calc(90vh-2em);
+    margin-top: 1em;
+    overflow: auto;
+    /* animation: vanOnder .4s cubic-bezier(.12,.96,1,-0.31) forwards; */
+    margin-top: 90vh;
+}
